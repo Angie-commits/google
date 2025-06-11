@@ -3,12 +3,12 @@
 This summary provides a detailed breakdown of the steps the browser and network take when one types google.com* and click the *Search* / *enter* button.
 
 
-## 1. Entering the Query:google.com
+## 1. Entering the Query: google.com
 
 When you type the query into your browser (e.g., Chrome) and press Enter, a sequence of network and browser-level events is triggered to retrieve, display and deliver the relevant search results.
 
 
-## 2. DNS Lookup (Domain Name Resolution)
+## 2. DNS (Domain Name Resolution) Query/lookup
 
 - The browser translates the human-friendly domain name to an IP address. A query is sent to a dns server, which acts as a phonebook, fetching the corresponding IP address for Googla's server.
 
