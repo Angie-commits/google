@@ -1,6 +1,6 @@
 # What Happens When You type google.com and Click Search / Press Enter
 
-This document provides a detailed breakdown of the steps your browser and network take when you type google.com* and click the *Search* / *enter* button.
+This summary provides a detailed breakdown of the steps the browser and network take when one types google.com* and click the *Search* / *enter* button.
 
 
 ## 1. Entering the Query:google.com
@@ -131,8 +131,11 @@ The new search request follows the same secure path:
 ## 15. User Interaction
 
 - The user now see search results
-- You can interact by clicking links, refining your query, or using features like image or video search.-
+- You can interact by clicking links, refining your query, or using features like image or video search.
 
-**Below is a Diagram baiscally showing the flow ;**
 
-![diagram](/images/diagram.jpg)
+
+**Below is a Diagram baiscally showing the practical flow**
+
+![diagram](/images/diadram.jpg)
+
