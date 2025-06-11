@@ -10,7 +10,9 @@ When you type the query into your browser (e.g., Chrome) and press Enter, a sequ
 
 ## 2. DNS Lookup (Domain Name Resolution)
 
-- *Browser cache check:* The browser first checks if it has a recent DNS record for google.com.
+- The browser translates the human-friendly domain name to an IP address. A query is sent to a dns server, which acts as a phonebook, fetching the corresponding IP address for Googla's server.
+
+- *Browser cache check:* The browser will checks if it has a recent DNS record for google.com.
 
 - *If not cached:*
   1. The browser contacts the *local DNS resolver* (typically provided by your ISP).
@@ -22,7 +24,8 @@ When you type the query into your browser (e.g., Chrome) and press Enter, a sequ
 
 ## 3. Establishing a TCP/IP Connection (Handshake)
 
-- The browser uses the IP address to initiate a *TCP connection* with the server.
+
+- The browser uses the IP address to initiate a *TCP connection* (Transmission control protocol) with the server.
 - A *three-way handshake* occurs:
   1. *SYN* – Browser requests to start a connection.
   2. *SYN-ACK* – Server acknowledges the request.
@@ -31,17 +34,19 @@ When you type the query into your browser (e.g., Chrome) and press Enter, a sequ
 
 ## 4. Firewall Checks
 
+-  Before venturing further, the packets encounter a firewall-a security system ensuring that only safe and authorized traffic is allowed through
+
 - *Client-side firewall:* Verifies if the outgoing request is permitted.
 - *Server-side firewall:* Verifies if the incoming request is safe.
 
 
 ## 5. SSL/TLS (HTTPS Encryption)
 
-- The browser and server perform a *TLS handshake* to:
+- The browser and server perform a *TLS (Transport Layer Security) handshake* to:
   - Agree on encryption protocols.
   - Exchange and verify digital certificates.
   - Establish an encrypted connection.
-- This ensures that all communication is *secure and private*.
+- This ensures that all communication is secure and private.
 
 
 
@@ -74,7 +79,7 @@ The browser processes and renders the received files:
 - Displays the Google homepage with a *search box*.
 
 
-## Clicking *Search* / *Enter*
+## Clicking *Search* / *Enter* button
 
 
 ## 9. JavaScript Captures the Search Term
